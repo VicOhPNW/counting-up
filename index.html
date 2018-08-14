@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Counting machine</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>COUNTING MACHINE!</h1>
+        <h3>A machine that only counts up!</h3>
+      </div>
+      <form id="results">
+        <div class="form-group">
+          <label for="inputOne">Count to</label>
+          <input id="numberOne" type="number" class="form-control">
+
+        </div>
+        <div class="form-group">
+          <label for="inputTwo">Count by</label>
+          <input id="numberTwo" type="number" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-warning">Get an answer!</button>
+      </form>
+      <div class="output">
+        <h3>Answer:<span id="outputList"></span></h3>
+      </div>
+    </div>
+  </body>
+</html>
